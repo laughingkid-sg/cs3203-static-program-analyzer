@@ -1,8 +1,6 @@
 name: Build (MacOS - Corn)
 
 on:
-  schedule:
-    - cron: "0 15,23 * * *"
   
   workflow_dispatch:     
     branches:     
